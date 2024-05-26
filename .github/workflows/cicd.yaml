@@ -87,9 +87,10 @@ jobs:
     needs:
       - lint
       - test
-      - build
+      - static-analysis
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout code
+        uses: actions/checkout@v3
 
       - name: Download build artifact
         uses: actions/download-artifact@v3
