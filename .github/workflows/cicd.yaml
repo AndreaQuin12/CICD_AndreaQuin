@@ -87,7 +87,7 @@ jobs:
     needs:
       - lint
       - test
-      - static-analysis
+      - build
     steps:
       - uses: actions/checkout@v3
 
@@ -95,7 +95,7 @@ jobs:
         uses: actions/download-artifact@v3
         with:
           name: build-artifact
-          path: build
+          path: ./build
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
