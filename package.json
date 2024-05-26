@@ -4,7 +4,7 @@
   "description": "",
   "main": "src/index.js",
   "scripts": {
-    "test": "node node_modules/.bin/jest tests/test_index",
+    "test": "node node_modules/.bin/jest tests/test_index.js",
     "start": "node src/index.js",
     "build": "echo \"build script not defined\"",
     "lint": "echo \"lint script not defined\""
@@ -13,6 +13,6 @@
   "license": "ISC",
   "dependencies": {},
   "devDependencies": {
-    "jest": "^29.0.0"
+    "jest": "^27.4.3",
   }
 }
