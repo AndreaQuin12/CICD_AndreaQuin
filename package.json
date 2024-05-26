@@ -7,7 +7,7 @@
     "test": "jest",
     "start": "node src/index.js",
     "build": "echo \"build script not defined\"",
-    "lint": "eslint src",
+    "lint": "cmd /c eslint src"
     "analyze": "eslint src"
   },
   "author": "",
