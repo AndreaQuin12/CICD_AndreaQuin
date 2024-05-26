@@ -5,15 +5,16 @@
   "main": "src/index.js",
   "scripts": {
     "test": "jest",
-    "test": "node node_modules/.bin/jest",
     "start": "node src/index.js",
     "build": "echo \"build script not defined\"",
-    "lint": "echo \"lint script not defined\""
+    "lint": "eslint src",
+    "analyze": "eslint src"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {},
   "devDependencies": {
-    "jest": "^29.0.0"
+    "jest": "^29.0.0",
+    "eslint": "^8.2.0"
   }
 }
