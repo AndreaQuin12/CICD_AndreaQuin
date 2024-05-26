@@ -1,9 +1,10 @@
-
+{
   "name": "cicd-andreaquin",
   "version": "1.0.0",
   "description": "",
   "main": "src/index.js",
   "scripts": {
+    "test": "jest",
     "test": "node node_modules/.bin/jest",
     "start": "node src/index.js",
     "build": "echo \"build script not defined\"",
