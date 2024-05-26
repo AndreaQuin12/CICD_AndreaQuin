@@ -13,12 +13,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-<<<<<<< HEAD
-    "jest": "^29.0.0",
-    "eslint": "^8.2.0"
-=======
     "eslint": "^9.3.0",
     "jest": "^29.7.0"
->>>>>>> a6332b2 (Lint updates)
   }
 }
