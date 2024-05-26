@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\vanes\\source\\repos\\CI-CD_AndreaQuin\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\vanes\\source\\repos\\CI-CD_AndreaQuin\\index.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:index.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50B7CA7C-78D2-4E3F-B283-3040C036D922}|CI-CD_AndreaQuin.vcxproj|C:\\Users\\vanes\\source\\repos\\CI-CD_AndreaQuin\\CI-CD_AndreaQuin.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{50B7CA7C-78D2-4E3F-B283-3040C036D922}|CI-CD_AndreaQuin.vcxproj|solutionrelative:CI-CD_AndreaQuin.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "index.js",
+              "DocumentMoniker": "C:\\Users\\vanes\\source\\repos\\CI-CD_AndreaQuin\\index.js",
+              "RelativeDocumentMoniker": "index.js",
+              "ToolTip": "C:\\Users\\vanes\\source\\repos\\CI-CD_AndreaQuin\\index.js",
+              "RelativeToolTip": "index.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-05-26T17:13:11.418Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CI-CD_AndreaQuin.cpp",
+              "DocumentMoniker": "C:\\Users\\vanes\\source\\repos\\CI-CD_AndreaQuin\\CI-CD_AndreaQuin.cpp",
+              "RelativeDocumentMoniker": "CI-CD_AndreaQuin.cpp",
+              "ToolTip": "C:\\Users\\vanes\\source\\repos\\CI-CD_AndreaQuin\\CI-CD_AndreaQuin.cpp",
+              "RelativeToolTip": "CI-CD_AndreaQuin.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-24T16:44:35.265Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
