@@ -6,7 +6,7 @@
   "scripts": {
     "test": "jest",
     "start": "node src/index.js",
-    "build": "echo \"build script not defined\"",
+    "build": "webpack",  // Updated the build script to use webpack
     "lint": "eslint src",
     "analyze": "eslint src"
   },
