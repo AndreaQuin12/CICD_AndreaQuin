@@ -118,10 +118,9 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
-
+  
       - name: Run smoke test
         run: |
           export TEST_URL=${{needs.deploy.outputs.page_url}}
-          cd tests
           npm install
           npm run smoke
