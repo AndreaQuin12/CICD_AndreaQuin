@@ -29,7 +29,6 @@ jobs:
         with:
           name: build-artifact
           path: ./dist
-          
 
   security:
     runs-on: ubuntu-latest
@@ -100,7 +99,29 @@ jobs:
           path: ./dist
 
       - name: Deploy to GitHub Pages
+        id: deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GH_TOKEN }}
           publish_dir: ./dist
+
+      - name: Set deployment URL
+        id: set-url
+        run: echo "::set-output name=page_url::https://AndreaQuin12.github.io/CICD_AndreaQuin/"
+
+  verify-job:
+    name: Verify Deployment
+    needs: deploy
+    runs-on: ubuntu-latest
+    if: success()
+    permissions: write-all
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Run smoke test
+        run: |
+          export TEST_URL=${{needs.deploy.outputs.page_url}}
+          cd frontend/e2e
+          npm install
+          npm run smoke
