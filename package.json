@@ -9,6 +9,7 @@
     "build": "webpack",
     "lint": "eslint src",
     "analyze": "eslint src"
+    "smoke": "jest"
   },
   "author": "",
   "license": "ISC",
