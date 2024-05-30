@@ -8,7 +8,7 @@
     "start": "node src/index.js",
     "build": "webpack",
     "lint": "eslint src",
-    "analyze": "eslint src".
+    "analyze": "eslint src",
     "smoke": "jest"
   },
   "author": "",
