@@ -122,6 +122,6 @@ jobs:
       - name: Run smoke test
         run: |
           export TEST_URL=${{needs.deploy.outputs.page_url}}
-          cd frontend/e2e
+          cd tests
           npm install
           npm run smoke
